@@ -1,0 +1,12 @@
+body{
+    background-color: #80ed99;
+
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    grid-column: 6;
+    text-align: none;
+}
