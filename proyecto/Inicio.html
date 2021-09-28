@@ -7,30 +7,107 @@
     <link rel="shortcut icon" href="https://images.vexels.com/media/users/3/208221/isolated/lists/e2df691b4e7b40cb3f919b366e8a610f-claqueta-de-cine-negro.png" 
             type="image/x-icon">
     <title>Inicio Sesión</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0%;
+        }
+        body{
+            background-color: lightgrey;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 0.3fr 1fr 0.5fr;
+            margin: 0;
+            height: 100vh;
+        }
+        header{
+            text-align: center;
+            font-size: larger;
+            font-family: sans-serif;
+            margin: 0;
+
+        }
+        .logo{
+            text-align: left;
+        }
+        main{
+            text-align: center;
+            display: grid;
+            /* border: 2px solid black; */
+            margin-left: 500px;
+            margin-right: 500px;
+            padding: 20px;
+        }
+        form{
+            display: grid;
+            grid-template-rows: 1fr 0.5fr 0.5fr;            
+        }
+
+        button{
+            width: 50%;
+            padding: 10px;
+            background-color: #80ED90;
+
+        }
+        input{
+            width: 95%;
+            padding: 10px;
+            font-size: large;
+            background-color: #112031;
+            color: white;
+        }
+        #recordar{
+            padding: 0%;
+            width: 5%;
+        }
+        .t2{
+            font-family: sans-serif;
+        }
+        .us_con{
+            display: block;
+            text-align: left;
+            font-size: x-large;
+            padding: 10px;
+            font-family: sans-serif;
+        }
+
+
+    </style>
 </head>
 <body>
     <header>
-        <h1>
-            <a target="_blank" href="https://images.vexels.com/media/users/3/208221/isolated/lists/e2df691b4e7b40cb3f919b366e8a610f-claqueta-de-cine-negro.png">
-                <img width="80px" src="https://images.vexels.com/media/users/3/208221/isolated/lists/e2df691b4e7b40cb3f919b366e8a610f-claqueta-de-cine-negro.png" alt="">
-            
+        <div class="logo">
+            <a target="_blank" href="img/logo2.png">
+                <img width="200px" src="img/logo2.png" alt="logo cine">        
             </a>
-            Inicio de Sesión Cine
+        </div>
+        <h1>            
+            Inicio de Sesión
         </h1>
     </header>
     <main>
-        <h2>Nombre Cine</h2>
+        <div class="t2">
+            <h2>Inicie sesión para ver sus beneficios!</h2>
+        </div>
+
         <form action="#" method="POST">
-            <label for="cliente">Nombre de Usuario</label>
-            <input required type="text" name="cliente" placeholder="Escriba su Usuario"/>
-            <br>
-            <label for="contraseña">Contraseña</label>
-            <input required type="password" name="contraseña" placeholder="Escriba su Contraseña"/>
-            <br>
-            <label for="recordar"></label>                
-            <input type="checkbox" name="recordar" value="1"> Recordar nombre de usuario
-            <br>
-            <button type="button" name="ingresar">Ingresar</button>
+            <div>
+                <label class="us_con" for="cliente">Usuario*</label>
+                <input required type="text" name="cliente" placeholder="Login"/>
+                <label class="us_con" for="contraseña">Contraseña*</label>
+                <input required type="password" name="contraseña" placeholder="Password"/>
+            </div>
+            <div>
+                <label for="recordar"></label>                
+                <input id="recordar" type="checkbox" name="recordar" value="1"> Recordar nombre de usuario
+            </div>
+            <div>
+                <button type="button" name="ingresar">Ingresar</button>
+            </div>
         </form>
     </main>
+    <footer>
+
+    </footer>
 </body>
