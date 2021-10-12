@@ -1,63 +1,55 @@
 <template>
-  <div class="home">
-    <body>
-      <main>
-        <header>
-          <h1>Proximos Estrenos</h1>
-        </header>
-        <ul>
-          <li>
-            <h1>Sin Tiempo para morir</h1>
-            <img
-              class="poster"
-              src="..\assets\img\proximos_estrenos\sin_tiempo_para_morir_poster_480x670.jpg"
-            />
-          </li>
-          <li>
-            <h1>Dog Rock: Renace Una Estrella</h1>
-            <img
-              class="poster"
-              src="..\assets\img\proximos_estrenos\rock_dog_poster_480x670.png"
-            />
-          </li>
-          <li>
-            <h1>Ron da Error</h1>
-            <img
-              class="poster"
-              src="..\assets\img\proximos_estrenos\ron_da_error_poster_480x670.png"
-            />
-          </li>
-          <li>
-            <h1>Miss Revolución</h1>
-            <img
-              class="poster"
-              src="..\assets\img\proximos_estrenos\miss_revolucion_poster_480x670.jpg"
-            />
-          </li>
-          <li>
-            <h1>Chernóbil: La Pelicula</h1>
-            <img
-              class="poster"
-              src="..\assets\img\proximos_estrenos\chernobil_poster_480x670.png"
-            />
-          </li>
-          <li>
-            <h1>La Leyenda de la Viuda</h1>
-            <img
-              class="poster"
-              src="..\assets\img\proximos_estrenos\la_leyenda_de_la_viuda_poster_480x670.png"
-            />
-          </li>
-        </ul>
-      </main>
-    </body>
-    <footer></footer>
-  </div>
+  <header>
+    <h1>Proximos Estrenos</h1>
+  </header>
+  <ul>
+    <li>
+      <h1>Sin Tiempo para morir</h1>
+      <img
+        class="poster"
+        src="..\assets\img\proximos_estrenos\sin_tiempo_para_morir_poster_480x670.jpg"
+      />
+    </li>
+    <li>
+      <h1>Dog Rock: Renace Una Estrella</h1>
+      <img
+        class="poster"
+        src="..\assets\img\proximos_estrenos\rock_dog_poster_480x670.png"
+      />
+    </li>
+    <li>
+      <h1>Ron da Error</h1>
+      <img
+        class="poster"
+        src="..\assets\img\proximos_estrenos\ron_da_error_poster_480x670.png"
+      />
+    </li>
+    <li>
+      <h1>Miss Revolución</h1>
+      <img
+        class="poster"
+        src="..\assets\img\proximos_estrenos\miss_revolucion_poster_480x670.jpg"
+      />
+    </li>
+    <li>
+      <h1>Chernóbil: La Pelicula</h1>
+      <img
+        class="poster"
+        src="..\assets\img\proximos_estrenos\chernobil_poster_480x670.png"
+      />
+    </li>
+    <li>
+      <h1>La Leyenda de la Viuda</h1>
+      <img
+        class="poster"
+        src="..\assets\img\proximos_estrenos\la_leyenda_de_la_viuda_poster_480x670.png"
+      />
+    </li>
+  </ul>
 </template>
 
 <script>
 // @ is an alias to /src
-
 </script>
 
 <style scoped>

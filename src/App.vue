@@ -1,28 +1,24 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link>
     <ul>
-      <router-link to="/"
-        >Home
-        <img src="assets\img\logo2.png">
+      <router-link :to="{name: 'pagina_principal'}"
+        >
+        <img src="@\assets\img\logo2.png">
       </router-link>
       <li>
-        <a href="página principal.html">INICIO</a>
+        <router-link :to="{name: 'cartelera'}">CARTELERA</router-link>
       </li>
       <li>
-        <router-link to="/cartelera">CARTELERA</router-link>
+        <router-link :to="{name: 'proximos_estrenos'}">PROXIMOS ESTRENOS</router-link>
       </li>
       <li>
-        <router-link to="/proximos_estrenos">PROXIMOS ESTRENOS</router-link>
+        <router-link :to="{name: 'tarifas'}">TARIFAS</router-link>
       </li>
       <li>
-        <a href="comidas.html">COMIDA</a>
+        <router-link :to="{name: 'comidas'}">COMIDAS</router-link>
       </li>
       <li>
-        <a href="Tarifas.html">TARIFAS</a>
-      </li>
-      <li>
-        <a href="Inicio.html">INICIAR SESION</a>
+        <router-link :to="{name: 'inicio_sesion'}">inicio_sesion</router-link>
       </li>
     </ul>
   </div>
