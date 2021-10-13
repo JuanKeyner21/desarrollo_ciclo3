@@ -3,7 +3,7 @@
     <ul>
       <router-link :to="{name: 'pagina_principal'}"
         >
-        <img src="@\assets\img\logo2.png">
+        <img src="@/assets/img/logo2.png">
       </router-link>
       <li>
         <router-link :to="{name: 'cartelera'}">CARTELERA</router-link>
@@ -18,7 +18,7 @@
         <router-link :to="{name: 'comidas'}">COMIDAS</router-link>
       </li>
       <li>
-        <router-link :to="{name: 'inicio_sesion'}">inicio_sesion</router-link>
+        <router-link :to="{name: 'inicio_sesion'}">INICIO SESION</router-link>
       </li>
     </ul>
   </div>
@@ -65,7 +65,6 @@ div li {
   margin: 2px;
   padding: 2px;
   background-color: #57cc99;
-
   text-decoration: none;
 }
 </style>

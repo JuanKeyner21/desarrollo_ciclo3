@@ -13,7 +13,7 @@
     <li>
       <h2>
         <body>
-          <p style="color: darkblue" ;>Dog Rock: Renace Una Estrella</p>
+          <p style="color: darkblue">Dog Rock: Renace Una Estrella</p>
         </body>
       </h2>
       <img
