@@ -6,7 +6,7 @@
         <img src="@\assets\img\logo2.png">
       </router-link>
       <li>
-        <router-link :to="{name: 'cartelera'}">CARTELERA</router-link>
+        <router-link :to="{name: 'cartelera'}">CARTELERA</router-link> 
       </li>
       <li>
         <router-link :to="{name: 'proximos_estrenos'}">PROXIMOS ESTRENOS</router-link>
@@ -18,7 +18,7 @@
         <router-link :to="{name: 'comidas'}">COMIDAS</router-link>
       </li>
       <li>
-        <router-link :to="{name: 'inicio_sesion'}">inicio_sesion</router-link>
+        <router-link :to="{name: 'inicio_sesion'}">INICIAR SESIÓN</router-link>
       </li>
     </ul>
   </div>
