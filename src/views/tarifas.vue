@@ -48,36 +48,64 @@
 
 
 <style scoped>
-body {
-  background-color: #80ed99;
+body{
+    background-color: #80ed99;
+}
+a{
+    text-decoration: 0;
+}
+nav img{
+    width: 212px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border: 2px solid black;
+}
+nav{
+    margin-bottom: 16px;
+}
+nav input{
+    margin-left: 8%;
+    padding: 8px;
+    border: 1px solid blue;
+    border-radius: 48px;
+}
+nav button{
+    display: inline-block;
+    border: 1px solid blue;
+    border-radius: 48px;
+    margin: 16px;
+    padding: 8px;
+    background-color: #57cc99;
+    align-content: center ;
+}
+main{
+    margin: 5%;
+}
+h1{
+    margin-bottom: 32px;
+}
+main tr{
+    padding:16px;
+}
+main table{
+    width: 80%;
+    border: 2px solid blue;
+    border-radius: 4px;
+    margin: auto;
+    padding: 30px;
+    background-color: #57cc99;
+    box-shadow: 4;
+    color: #fff8e5;
 }
 
-nav button {
-  display: inline-block;
-  border: 1px solid blue;
-  border-radius: 16px;
-  margin: 2px;
-  padding: 2px;
-  background-color: #57cc99;
+a:visited{
+    color: white;
 }
-main table {
-  width: 520px;
-  border: 2px solid blue;
-  border-radius: 4px;
-  margin: 2px;
-  padding: 10px;
-  background-color: #57cc99;
-  box-shadow: 4;
-  color: #fff8e5;
-  text-align: center;
+a:link{
+    color:white;
 }
-a:visited {
-  color: green;
-}
-a:link {
-  color: blue;
-}
-a:hover {
-  color: blueviolet;
+a:hover{
+    color: black;
 }
 </style>

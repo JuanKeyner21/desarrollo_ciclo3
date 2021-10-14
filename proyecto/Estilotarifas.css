@@ -1,8 +1,15 @@
 body{
     background-color: #80ed99;
 }
-#Logo{
-    margin-right: 8%;
+a{
+    text-decoration: 0;
+}
+nav img{
+    width: 212px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border: 2px solid black;
 }
 nav{
     margin-bottom: 16px;
@@ -50,6 +57,5 @@ a:link{
 }
 a:hover{
     color: black;
-    background-color: blueviolet;
 }
 
