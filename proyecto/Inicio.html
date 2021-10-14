@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="https://images.vexels.com/media/users/3/208221/isolated/lists/e2df691b4e7b40cb3f919b366e8a610f-claqueta-de-cine-negro.png" 
             type="image/x-icon">
     <title>Inicio Sesión</title>
+    <script src="../proyecto/Inicio.js"></script>
 
     <style>
         *{
@@ -77,11 +78,6 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <a target="_blank" href="img/logo2.png">
-                <img width="200px" src="img/logo2.png" alt="logo cine">        
-            </a>
-        </div>
         <h1>            
             Inicio de Sesión
         </h1>
@@ -91,7 +87,7 @@
             <h2>Inicie sesión para ver sus beneficios!</h2>
         </div>
 
-        <form action="#" method="POST">
+        <form action="#" id="formulario_compra">
             <div>
                 <label class="us_con" for="cliente">Usuario*</label>
                 <input required type="text" name="cliente" placeholder="Login"/>
@@ -103,11 +99,13 @@
                 <input id="recordar" type="checkbox" name="recordar" value="1"> Recordar nombre de usuario
             </div>
             <div>
-                <button type="button" name="ingresar">Ingresar</button>
+                <button onclick="procesarInformacion()" type="button" name="ingresar">Ingresar</button>
             </div>
         </form>
     </main>
     <footer>
 
     </footer>
+
+
 </body>
