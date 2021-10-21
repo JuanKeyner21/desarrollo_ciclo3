@@ -47,6 +47,24 @@
 
 
 <script>
+import ClienteService from "@/Inicio.js";
+
+export default{
+  mounted(){
+    this.cliente = ClienteService.obtenerCliente();
+  
+    if(!this.cliente.nombre){
+      this.$router.push({name:"Login"})
+    };
+  },
+
+  data(){
+    return{
+      cliente:{}
+    };
+  }
+};
+
 </script>
 
 
