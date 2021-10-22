@@ -20,33 +20,18 @@
   </ul>
 
   <h2>Proximos Estrenos</h2>
-  <ul>
-    <li>
-      <h1>Sin Tiempo para morir</h1>
-      <img
-        class="poster"
-        src="img\proximos_estrenos\sin_tiempo_para_morir_poster_480x670.jpg"
-      />
-    </li>
-    <li>
-      <h1>Dog Rock</h1>
-      <img
-        class="poster"
-        src="img\proximos_estrenos\rock_dog_poster_480x670.png"
-      />
-    </li>
-    <li>
-      <h1>Ron da Error</h1>
-      <img
-        class="poster"
-        src="img\proximos_estrenos\ron_da_error_poster_480x670.png"
-      />
-    </li>
-  </ul>
+  <proximos />
 </template>
 
 
 <script>
+import proximos from "@/components/proximos_estrenos.vue";
+export default {
+  name: "principal",
+  components: {
+    proximos,
+  },
+};
 </script>
 
 
